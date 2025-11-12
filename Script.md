@@ -72,7 +72,7 @@ El gráfico muestra una distribución de salarios con una mayor concentración e
 
 Salarios según nivel de experiencia:
 
-###ver código
+### ver código
 #ordenar las categorías por la media de salario (de menor a mayor)
 datossalarios <- datossalarios %>%
   group_by(experience_level) %>%
@@ -280,3 +280,4 @@ Los Data Scientists, en promedio, ganan significativamente más que los Data Ana
 Si bien puede haber variaciones dentro de cada grupo, los datos muestran de forma clara y consistente que el salario medio de los Data Scientists es más alto que el de los Data Analysts, y esta diferencia es estadísticamente significativa.
 
 Este estudio ejemplifica la importancia de las técnicas estadísticas para validar las diferencias observadas en cualquier conjunto de datos. Elegir la prueba estadística adecuada, según las características de los datos, es fundamental para obtener conclusiones precisas y correctas.
+
